@@ -7,6 +7,7 @@
 // */
 
 let changedtext = document.getElementById('timer-button');
+let lapbutton = document.getElementById('lap-button')
 let hrelement = document.getElementById('hours');
 let mnelement = document.getElementById('minutes');
 let scelement = document.getElementById('seconds');
@@ -49,9 +50,14 @@ function startTimer() {
     }, 1000);
 }
 
+function laprecord() {
+    lapsContainer.innerHTML += `<p>Lap ${lapCounter}: ${hoursElement.textContent}:${minutesElement.textContent}:${secondsElement.textContent}</p>`;
+    lapCounter++;
+}
 
 function stopTimer() {
     clearInterval(timerInterval);
+    laprecord();
 }
 
 function resetTimer() {

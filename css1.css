@@ -1,0 +1,39 @@
+.head{
+    margin-top: 10vh;
+    margin-left: 38%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 20vw;
+    cursor: pointer;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 50%;
+    font-size: 40px;
+}
+.head-1{
+    margin-top: 5vh;
+    margin-left: 38%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 20vw;
+    cursor: pointer;
+    text-align: center;
+}
+.head-2{
+    margin-top: 5vh;
+    margin-left: 38%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 20vw;
+    cursor: pointer;
+    text-align: center;
+}
